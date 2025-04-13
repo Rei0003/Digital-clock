@@ -32,3 +32,14 @@ Clock();
 displayDate();
 setInterval(Clock, 1000)
 setInterval(displayDate, 86400000)
+
+function mode(){
+  if(dark.checked){
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+  }
+  else{
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+  }
+}
