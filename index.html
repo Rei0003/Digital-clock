@@ -7,7 +7,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <div id="dark_mode">
+    <p>Dark mode: </p>
+    <label class="switch">
+      <input id="dark" type="checkbox" onchange="mode()">
+      <span class="slider round"></span>
+    </label>
+  </div>
   <div id="clock_container">
     <div id="clock">00:00:00</div>
     <div id="date">00.00.0000</div>
